@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    border: 1px solid gainsboro;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.input-div{
+    border: 1px solid;
+    border-color: rgb(172, 170, 170);
+    display: flex;
+}
+.input-fill{
+    padding: 10px;
+    color: gray;
+    background-color: rgb(239, 235, 235);
+    border: none;
+    outline: none;
+}
+i{
+    font-size:30px ;
+    color: gray;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Search-btn{
+    background-color: darkblue;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font: 20px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Search-btn:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid;
+    transition: all .5s;
+}
+ul li a{
+    text-decoration: none;
+    margin: 30px;
+}
+#btn-login{
+    background-color: blue;
+    padding: 10px;
+    width: 100px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+#btn-login:hover{
+    background-color:rgb(121, 121, 239);
+    color: #fff;
+    border: 1px solid;
+    transition: all .5s;
+}
+.shoe-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.first-shoe-container{
+    width: 260px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.08);
+    margin: 30px auto;
+} 
+.shoe1{
+    display: flex;
+    justify-content: center;
+}
+
+.product-name{
+list-style-type: none;
+display: flex;
+flex-direction: column;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 10px;
+    margin-bottom: -10px;
+}
+.price{
+    font-weight: 400;
+    color: rgb(83, 80, 80);
+    margin: 10px ;
+}
+.rating{
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.footer{
+    width: 100%;
+    border: 1px solid;
+    border-color: darkgray;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(15, 15, 163);
+}
+.text10 a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text9 a{
+    font-weight: 700;
+}
+.copy{
+    text-align: center;
+}
+@media (max-width:600px) {
+   
+}
